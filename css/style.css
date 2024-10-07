@@ -1,0 +1,94 @@
+ /*------ Meylia Wijayanti -------*/
+/*--------   B243065B   ---------*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+ 
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+nav a:focus {
+    color: #333; 
+    background-color: rgba(255, 204, 0, 0.8); 
+}
+
+ /*------ Meylia Wijayanti -------*/
+/*--------   B243065B   ---------*/
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+article {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ /*------ Meylia Wijayanti -------*/
+/*--------   B243065B   ---------*/ 
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+article img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+ /*------ Meylia Wijayanti -------*/
+/*--------   B243065B   ---------*/ 
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 40px; 
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-media img:hover {
+    transform: scale(1.1); 
+}
+
+ /*------ Meylia Wijayanti -------*/
+/*--------   B243065B   ---------*/
